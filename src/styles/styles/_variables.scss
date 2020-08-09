@@ -1,0 +1,48 @@
+// Color Variables
+// Bootstrap Color Overrides
+
+$white: #fff !default;
+$white-100: #f3f3f3 !default;
+$white-200: #f4f4f4 !default;
+$white-300: #fcfdff !default;
+$white-400: #dfdfdf !default;
+
+$gray-100: #f6f7f9 !default;
+$gray-200: #f1f5fa !default;
+$gray-300: #eaecf0 !default;
+$gray-400: #eeeff2 !default;
+$gray-500: #b7b9cc !default;
+$gray-600: #a0a5ad !default;
+$gray-700: #4b4a4a !default;
+$gray-800: #5a5c69 !default;
+$gray-900: #3a3b45 !default;
+$gray-dark: #929da7 !default;
+
+$black: #000 !default;
+$txt-color: #606060;
+
+$blue: #266db5 !default;
+$indigo: #393a73 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #e74a3b !default;
+$orange: #fd7e14 !default;
+$yellow: #f6c23e !default;
+$green: #61aa44 !default;
+$teal: #20c9a6 !default;
+$cyan: #36b9cc !default;
+
+// Typography
+$body-color: $txt-color !default;
+
+$font-family: sans-serif;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-size-base: 0.88rem !default;
+
+$font-weight-light: 300 !default;
+// $font-weight-base: 400;
+$headings-font-weight: 400 !default;

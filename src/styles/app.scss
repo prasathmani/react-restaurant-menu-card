@@ -1,0 +1,14 @@
+.navbar {
+  margin-bottom: 30px;
+  &-brand {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+.c-card {
+  width: 20rem;
+  margin: 20px 10px;
+  cursor: pointer;
+}

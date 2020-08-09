@@ -1,0 +1,27 @@
+// Global component styles
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: outside;
+}

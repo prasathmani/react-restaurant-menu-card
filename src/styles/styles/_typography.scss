@@ -1,0 +1,113 @@
+@mixin font-xs-bold($color: $gray-700) {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: $color;
+}
+
+@mixin font-xsm($color: $txt-color) {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: $color;
+}
+
+@mixin font-sm($color: $txt-color) {
+  font-size: 14px;
+  line-height: 17px;
+  color: $color;
+}
+
+@mixin font-sm-bold($color: $txt-color) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color;
+}
+
+@mixin font-xmd-bold($color: $txt-color) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color;
+}
+
+@mixin font-md-bold($color: $gray-700) {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: $color;
+}
+
+@mixin font-mdx-bold($color: $gray-700) {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: $color;
+}
+
+@mixin font-mlg-bold($color: $gray-700) {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $color;
+}
+
+@mixin font-lg-bold($color: $gray-700) {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  color: $color;
+}
+
+@mixin font-lg-60($color: $gray-700) {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 54px;
+  color: $color;
+}
+
+@mixin lato-sm-bold($color: $gray-700) {
+  font-family: $font-family-lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $color;
+}
+
+@mixin lato-md-bold($color: $gray-700) {
+  font-family: $font-family-lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: $color;
+}
+
+@mixin lato-h1($color: $gray-700) {
+  font-family: $font-family-lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: $color;
+}
+
+@mixin lato-lg($color: $gray-700) {
+  font-family: $font-family-lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: $color;
+}
+
+@mixin lato-xlg-bold($color: $gray-700) {
+  font-family: $font-family-lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: $color;
+}

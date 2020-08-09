@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "./styles/variables";
+@import "./styles/brackpoints";
+@import "./styles/global";
+@import "./styles/typography";
+@import "./app";
+
+body {
+  margin: 0;
+  background: $white;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $black;
+  height: 100%;
+}
